@@ -1,0 +1,134 @@
+/* google fonts!!!!!!!!!!!! są rodzaje i rozmiary czcionek*/
+
+/* ----------------Menu nawigacyjne start--------------------*/
+
+body {
+	margin: 0;
+	font-family: 'Lato', sans-serif;
+	
+}
+
+nav#menu {
+	text-align: center;
+	background-color: black;
+	height: 80px;
+	
+	padding: 7px; 
+	top:0;
+	
+/*	----------------tworze mmenu nawigacyjne które będzie dostępne cały czas przy scrollowaniu*/
+	position: fixed;
+	width: 100vw;
+	z-index: 1;
+	
+/*	margin: 0;*/
+	
+}
+
+.menu-item {
+	color: white; 
+	position: relative;
+	display: inline;
+/*	left:50%;*/
+/*	right:50%;*/
+	padding:  10px;
+	border-right: 1px solid black;
+}
+
+li > a {
+	text-decoration: none;
+	color: white;
+	font-weight: bold;
+	font-size: 20px;
+	
+}
+/*------------------------Menu nawigacyjne stop------------------*/
+
+header#header {
+	text-align: center;
+	position: relative;
+
+}
+
+header#header > img {
+		width: 100vw;
+}
+
+header#header > h1#main-header-text {
+	/*position: relative;
+	display: inline;
+	position: absolute;
+	text-align: center;*/
+	
+/*	display: block;*/
+/*	text-align: center;*/
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 50%;
+	color: white;
+	text-transform: uppercase;
+	
+	
+	font-size: 60px;
+
+}
+
+
+/*-----------------------Nagłówek strony stop-------------------*/
+
+
+
+/*-----------------------Sekcja strony start-------------------*/
+
+
+
+section#about {
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+section.about-header + section.about-content {
+	font-style: italic;
+
+}
+
+/*-----------------------stopka strony stop-------------------*/
+
+footer#contact {
+	text-align: center;
+	background-color: black;
+	height: 150px;
+	width: 100vw;
+	padding: 7px; 
+	top:0;
+	
+	
+}
+
+footer#contact h2#contact-header {
+	color: white;
+	text-decoration: none;
+	font-style: normal;
+	
+}
+
+footer#contact address#contact-content {
+	color: white;
+	text-decoration: none; 
+	font-style: normal;
+
+}
+
+footer#contact address#contact-content a {
+	color: white;
+	text-decoration: none; 
+	font-style: normal;	
+}
+
+footer#contact address#contact-content a:hover {
+	color: red;
+}
+
+/*-----------------------stopka strony stop-------------------*/
